@@ -37,7 +37,7 @@ module.exports = {
         .setColor('336d91')
         .setTimestamp()
   
-  client.channels.cache.get(`1264714205689544774`).send({ embeds: [embed] });
+  client.channels.cache.get(`1244327637980020747`).send({ embeds: [embed] });
   interaction.reply({ content: `Command run successfully by <@${interaction.member.id}>!.`, ephemeral: true});
 })
 .catch(error => {
